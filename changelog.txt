@@ -40,6 +40,9 @@ v1 (Slated to release mid-May):
     - Added the Overworld level and final level of World 1
     - Renamed Sector to World across the entire game
     - Revamped the look of the W1 final level's entrance area
+    - Slime Blocks now grant temporary Slow Falling for a graceful fall
     - Pre-added item definitions for trims to the Shop for later use
         - Armor trim files now have randomly generated prices
-    - Slime Blocks now grant temporary Slow Falling for a graceful fall
+    - Updated devtools (function namespace "devtest")
+        - Playtesting mode doesn't teleport you to the hub on level completion anymore
+        - Added Slime Block tweaks to playtesting mode
