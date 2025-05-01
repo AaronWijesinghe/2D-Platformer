@@ -9,7 +9,8 @@ execute as @e[type=minecraft:armor_stand] at @s if block ~ ~-1 ~ minecraft:emera
 execute as @e[type=minecraft:armor_stand] at @s if block ~ ~-1 ~ minecraft:diamond_block run give @p diamond
 execute as @e[type=minecraft:armor_stand] at @s if block ~ ~-1 ~ minecraft:diamond_block run function platformer:finish_level
 
-execute as @e[type=minecraft:player] at @s if block ~ ~-1 ~ minecraft:slime_block run tp @s ~ ~7 ~
+execute as @e[type=minecraft:player] at @s if block ~ ~-0.01 ~ minecraft:slime_block run effect give @s slow_falling 1 0 true
+execute as @e[type=minecraft:player] at @s if block ~ ~-0.01 ~ minecraft:slime_block run tp @s ~ ~6 ~
 execute as @e[type=minecraft:player] at @s if block ~ ~-1 ~ minecraft:shulker_box run effect give @s levitation 3 1 true
 execute as @e[type=minecraft:player] at @s if block ~ ~-1 ~ minecraft:purple_shulker_box run effect give @s levitation 1 0 true
 

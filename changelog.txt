@@ -1,0 +1,44 @@
+CBT_0 (5/30/2024):
+    - Added structure blocks for levels and backgrounds
+    - Added cosmetic system with trims and armor
+    - Added hub and shop buildings
+    - Made an incredibly janky, but working creating engine
+
+CBT_1 (6/2/2024):
+    - Update to 1.20.6
+    - Fixed Shop not awarding items properly
+    - Shop now doesn't require you to have the EXACT number of currency
+    - When armor stand teleports to Shop, it now teleports with the armor stand looking forward
+    - Redesigned level selector, made it more intuitive
+    - Removed structure blocks
+    - Removed the 48x48x48 limit on levels, its more like 30M x 312 x 30M now!
+    - Redesigned the entire datapack and its functions
+    - Removed the bat spawn mechanic and references to it in datapack
+    - Armor stand now teleports on top of the hub when the level finishes/you die; this behavior was implemented but flawed in CBT_0
+    - Effects clear when you are not in a level
+    - Shop items that cost gold INGOTS are now in the datapack for later use :D
+    - More items added to shop portion of the core datapack for later use
+    - Added Nether themed level
+    - Blocked off edges of levels to prevent players from escaping
+    - Player is constantly forced into adventure mode while inside a level
+    - The blocks that grant effects (ex: shulker box = Levitation) don't grant effects outside of levels
+    - Added 3D effects to the Nether themed level
+
+CBT_2 (EoL 4/27/2025, features added earlier):
+    - Replaced the "Not enough currency!" prompt with a guardian death sound and the "Successfully bought" prompt with the XP collect sound
+    - Fixed the Shop not functioning, and added redstone lamps to it
+    - If the player isn't in a level, the 2Dmode datapack is disabled
+    - Added End portal sound to the End level on teleport
+    - Added 3D effects to current levels
+    - Revamped W1 into a hunt for exotic plants
+    - Added "trophies", or plants, after getting to a certain point in a level that show in the Hub
+    - Level specific functions such as teleports are now stored in the datapack "level_specific"
+
+v1 (Slated to release mid-May):
+    - Updated to 1.21.5
+    - Fixed all datapacks to work with 1.21.x
+    - Added the Overworld level and final level of World 1
+    - Renamed Sector to World across the entire game (WIP)
+    - Revamped the look of the W1 final level's entrance area
+    - Pre-added item definitions for trims to the Shop for later use
+        - Armor trim files now have randomly generated prices
