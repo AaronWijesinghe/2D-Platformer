@@ -38,7 +38,8 @@ v1 (Slated to release mid-May):
     - Updated to 1.21.5
     - Fixed all datapacks to work with 1.21.x
     - Added the Overworld level and final level of World 1
-    - Renamed Sector to World across the entire game (WIP)
+    - Renamed Sector to World across the entire game
     - Revamped the look of the W1 final level's entrance area
     - Pre-added item definitions for trims to the Shop for later use
         - Armor trim files now have randomly generated prices
+    - Slime Blocks now grant temporary Slow Falling for a graceful fall
