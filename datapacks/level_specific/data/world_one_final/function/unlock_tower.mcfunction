@@ -1,0 +1,1 @@
+setblock 53 -38 -46 air
