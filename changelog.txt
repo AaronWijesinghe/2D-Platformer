@@ -14,7 +14,8 @@ CBT_1 (6/2/2024):
     - Removed the 48x48x48 limit on levels, its more like 30M x 312 x 30M now!
     - Redesigned the entire datapack and its functions
     - Removed the bat spawn mechanic and references to it in datapack
-    - Armor stand now teleports on top of the hub when the level finishes/you die; this behavior was implemented but flawed in CBT_0
+    - Armor stand now teleports on top of the hub when the level finishes/you die
+        - This behavior was implemented but flawed in CBT_0
     - Effects clear when you are not in a level
     - Shop items that cost gold INGOTS are now in the datapack for later use :D
     - More items added to shop portion of the core datapack for later use
@@ -37,12 +38,21 @@ CBT_2 (EoL 4/27/2025, features added earlier):
 v1 (Slated to release mid-May):
     - Updated to 1.21.5
     - Fixed all datapacks to work with 1.21.x
+    - Added a function which refreshes all level barriers
     - Added the Overworld level and final level of World 1
-    - Renamed Sector to World across the entire game
-    - Revamped the look of the W1 final level's entrance area
-    - Slime Blocks now grant temporary Slow Falling for a graceful fall
+    - Added a burning death sound when the player is killed by lava/magma
+    - Added a special sound for players who finish a level using a diamond block
     - Pre-added item definitions for trims to the Shop for later use
         - Armor trim files now have randomly generated prices
-    - Updated devtools (function namespace "devtest")
+    - Renamed "Sector" to "World" across the entire game
+    - Revamped the look of the W1 final level's entrance area
+    - Slime Blocks now grant temporary Slow Falling for a graceful fall
+    - Cosmetics are no longer lost on death
+    - Trimmed vertical size of some levels
+    - Increased edges of all levels to be 4 blocks wide
+    - Updated devtools (function namespace "devtest") with new core tweaks
         - Playtesting mode doesn't teleport you to the hub on level completion anymore
-        - Added Slime Block tweaks to playtesting mode
+        - If the player fails the level during playtesting mode, the playtesting session stops
+    - Fixed sounds not being heard by the player
+        - Most sounds are now played through the "master" channel
+    - [WIP] Added references to a bonus level for W1's final level

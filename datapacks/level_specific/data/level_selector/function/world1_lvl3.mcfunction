@@ -3,4 +3,4 @@
 tp @p 51 -60 -35
 tp @e[type=armor_stand] 51 -60 -56
 datapack enable "file/2Dmode"
-playsound minecraft:block.portal.travel block @p 51 -60 -35
+playsound minecraft:block.portal.travel master @p 51 -60 -35
