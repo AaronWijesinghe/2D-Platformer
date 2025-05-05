@@ -1,3 +1,4 @@
 execute as @a at @s unless block 40 -59 57 minecraft:chorus_flower unless block 40 -59 62 minecraft:wither_rose unless block 40 -59 67 minecraft:oak_sapling run tellraw @s "You must harness the power of the sacred flowers before entering..."
 execute as @a at @s if block 40 -59 57 minecraft:chorus_flower if block 40 -59 62 minecraft:wither_rose if block 40 -59 67 minecraft:oak_sapling run tellraw @s "All keys found!\nTeleporting to final level..."
-execute as @a at @s if block 40 -59 57 minecraft:chorus_flower if block 40 -59 62 minecraft:wither_rose if block 40 -59 67 minecraft:oak_sapling run function level_selector:sector1_final
+execute as @a at @s if block 40 -59 57 minecraft:chorus_flower if block 40 -59 62 minecraft:wither_rose if block 40 -59 67 minecraft:oak_sapling run function level_selector:world1_final
+execute as @a at @s if block 43 -58 82 dragon_egg run tellraw @s "Something feels amiss..."
