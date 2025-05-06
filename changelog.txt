@@ -42,6 +42,7 @@ v1 (Slated to release mid-May):
     - Added the Overworld level and final level of World 1
     - Added a burning death sound when the player is killed by lava/magma
     - Added a special sound for players who finish a level using a diamond block
+    - Added support for different times of day in levels
     - Pre-added item definitions for trims to the Shop for later use
         - Armor trim files now have randomly generated prices
     - Renamed "Sector" to "World" across the entire game
@@ -55,4 +56,5 @@ v1 (Slated to release mid-May):
         - If the player fails the level during playtesting mode, the playtesting session stops
     - Fixed sounds not being heard by the player
         - Most sounds are now played through the "master" channel
+    - Made the Shop door open automatically and removed pressure plates for that door
     - [WIP] Added references to a bonus level for W1's final level
