@@ -1,5 +1,4 @@
 datapack disable "file/2Dmode"
-tp @e[type=armor_stand] 26 -50 36
-tp @p 26 -60 36
 effect clear @p
+tp @p 35 -58 40
 playsound minecraft:entity.generic.burn master @p ~ ~ ~ 100

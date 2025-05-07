@@ -6,6 +6,6 @@ execute as @a at @s if score @s currency matches 5.. run give @s minecraft:nethe
 execute as @a at @s if score @s currency matches 5.. run give @s minecraft:netherite_chestplate
 execute as @a at @s if score @s currency matches 5.. run give @s minecraft:netherite_leggings
 execute as @a at @s if score @s currency matches 5.. run give @s minecraft:netherite_boots
-execute as @a at @s if score @s currency matches 5.. run playsound minecraft:entity.experience_orb.pickup block @s ~ ~ ~
+execute as @a at @s if score @s currency matches 5.. run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 execute as @a at @s if score @s currency matches 5.. run clear @s gold_ingot 5
-execute as @a at @s if score @s currency matches ..4 run playsound minecraft:entity.guardian.death_land block @s ~ ~ ~
+execute as @a at @s if score @s currency matches ..4 run playsound minecraft:entity.guardian.death_land master @s ~ ~ ~

@@ -1,6 +1,6 @@
 datapack disable "file/2Dmode"
 time set noon
 kill @e[type=armor_stand]
-tp @p 26 -60 36
-summon armor_stand 26 -50 36 {Invulnerable:1b}
+tp @p 35 -58 40
+summon armor_stand 21 -58.5 41 {Invulnerable:1b}
 effect clear @p

@@ -35,7 +35,7 @@ CBT_2 (EoL 4/27/2025, features added earlier):
     - Added "trophies", or plants, after getting to a certain point in a level that show in the Hub
     - Level specific functions such as teleports are now stored in the datapack "level_specific"
 
-v1 (Slated to release 5/30/2025):
+v1 (Releasing 5/30/2025, if not earlier):
     - Updated to 1.21.5
     - Fixed all datapacks to work with 1.21.x
     - Added a function which refreshes all level barriers
@@ -45,8 +45,12 @@ v1 (Slated to release 5/30/2025):
     - Added support for different times of day in levels
     - Pre-added item definitions for trims to the Shop for later use
         - Armor trim files now have randomly generated prices
-    - Renamed "Sector" to "World" across the entire game
+        - I will still tweak prices to make all currencies useful
+    - Renamed "Sector" to "World" across the entire game, including datapacks
     - Revamped the look of the W1 final level's entrance area
+    - Revamped the hub/shop areas
+        - Both areas are now combined with the level selector area
+        - Allocated more space to the respective areas
     - Slime Blocks now grant temporary Slow Falling for a graceful fall
     - Cosmetics are no longer lost on death
     - Trimmed vertical size of some levels
@@ -54,7 +58,8 @@ v1 (Slated to release 5/30/2025):
     - Updated devtools (function namespace "devtest") with new core tweaks
         - Playtesting mode doesn't teleport you to the hub on level completion anymore
         - If the player fails the level during playtesting mode, the playtesting session stops
+        - dev2Dmode is also stopped if the player is at spawn
     - Fixed sounds not being heard by the player
-        - Most sounds are now played through the "master" channel
+        - All sounds are now played through the "master" channel
     - Made the Shop door open automatically and removed pressure plates for that door
-    - [WIP] Added references to a bonus level for W1's final level
+    - [WIP] Added bonus level for W1's final level, Tower of Ender

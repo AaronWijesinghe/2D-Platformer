@@ -6,6 +6,6 @@ execute as @a at @s if score @s currency matches 2.. run give @s minecraft:chain
 execute as @a at @s if score @s currency matches 2.. run give @s minecraft:chainmail_chestplate
 execute as @a at @s if score @s currency matches 2.. run give @s minecraft:chainmail_leggings
 execute as @a at @s if score @s currency matches 2.. run give @s minecraft:chainmail_boots
-execute as @a at @s if score @s currency matches 2.. run playsound minecraft:entity.experience_orb.pickup block @s ~ ~ ~
+execute as @a at @s if score @s currency matches 2.. run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 execute as @a at @s if score @s currency matches 2.. run clear @s gold_ingot 2
-execute as @a at @s if score @s currency matches ..1 run playsound minecraft:entity.guardian.death_land block @s ~ ~ ~
+execute as @a at @s if score @s currency matches ..1 run playsound minecraft:entity.guardian.death_land master @s ~ ~ ~
