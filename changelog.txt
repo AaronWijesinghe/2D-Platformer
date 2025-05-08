@@ -57,8 +57,9 @@ v1 (Releasing 5/30/2025, if not earlier):
     - Increased edges of all levels to be 4 blocks wide
     - Updated devtools (function namespace "devtest") with new core tweaks
         - Playtesting mode doesn't teleport you to the hub on level completion anymore
+        - Playtesting mode doesn't kill or summon any armor stands anymore
         - If the player fails the level during playtesting mode, the playtesting session stops
-        - dev2Dmode is also stopped if the player is at spawn
+        - The dev2Dmode datapack is also disabled if the player is at spawn
     - Fixed sounds not being heard by the player
         - All sounds are now played through the "master" channel
     - Made the Shop door open automatically and removed pressure plates for that door
