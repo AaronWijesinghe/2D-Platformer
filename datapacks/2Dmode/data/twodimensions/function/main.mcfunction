@@ -19,8 +19,8 @@ execute as @e[type=minecraft:player] at @s if block ~ ~ ~ minecraft:lava run fun
 execute as @e[type=minecraft:player] at @s if block ~ ~-0.01 ~ minecraft:barrier run function platformer:level_fail_generic
 execute as @e[type=minecraft:player] at @s if block ~ ~-0.01 ~ minecraft:magma_block run function platformer:level_fail_fire
 
-execute as @e[type=minecraft:player,limit=1] at @s run tp @e[type=armor_stand] ~ ~ ~ facing ~ ~ ~90
-execute as @e[type=minecraft:player,limit=1] at @s run tp @s ~ ~ ~ facing ~ ~ ~-90
+execute as @e[type=minecraft:player,limit=1] at @s run tp @e[type=armor_stand] ~ ~ ~ facing ~ ~ 90
+execute as @e[type=minecraft:player,limit=1] at @s run tp @s ~ ~ ~ facing ~ ~ -90
 execute as @a at @s if block ~ ~ ~ light run tp @s ~ ~ ~-0.75
 
 effect give @a invisibility 1 0 true

@@ -62,5 +62,5 @@ v1 (Releasing 5/30/2025, if not earlier):
         - The dev2Dmode datapack is also disabled if the player is at spawn
     - Fixed sounds not being heard by the player
         - All sounds are now played through the "master" channel
-    - Made the Shop door open automatically and removed pressure plates for that door
+    - Fixed a rare bug involving small increments of fire damage
     - [WIP] Added bonus level for W1's final level, Tower of Ender
