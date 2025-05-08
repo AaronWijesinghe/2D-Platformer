@@ -54,7 +54,7 @@ v1 (Releasing 5/30/2025, if not earlier):
     - Slime Blocks now grant temporary Slow Falling for a graceful fall
     - Cosmetics are no longer lost on death
     - Trimmed vertical size of some levels
-    - Increased edges of all levels to be 4 blocks wide
+    - Increased edges of all levels to be 5 blocks wide
     - Updated devtools (function namespace "devtest") with new core tweaks
         - Playtesting mode doesn't teleport you to the hub on level completion anymore
         - Playtesting mode doesn't kill or summon any armor stands anymore
