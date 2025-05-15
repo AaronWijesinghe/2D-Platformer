@@ -2802,5 +2802,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/purple_bed": {
+    "criteria": {
+      "has_purple_wool": "2025-05-15 17:18:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_carpet": {
+    "criteria": {
+      "has_purple_wool": "2025-05-15 17:18:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_banner": {
+    "criteria": {
+      "has_purple_wool": "2025-05-15 17:18:05 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 4325
 }
