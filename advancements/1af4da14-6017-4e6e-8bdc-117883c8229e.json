@@ -2790,5 +2790,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-05-14 20:29:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/magenta_bundle": {
+    "criteria": {
+      "has_magenta_dye": "2025-05-14 21:17:43 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 4325
 }

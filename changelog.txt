@@ -35,7 +35,7 @@ CBT_2 (EoL 4/27/2025, features added earlier):
     - Added "trophies", or plants, after getting to a certain point in a level that show in the Hub
     - Level specific functions such as teleports are now stored in the datapack "level_specific"
 
-v1 (Releasing 5/30/2025, if not earlier):
+v1 (Releasing 5/17-5/18):
     - Updated to 1.21.5
     - Fixed all datapacks to work with 1.21.x
     - Added a function which refreshes all level barriers
