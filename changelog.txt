@@ -63,4 +63,5 @@ v1 (Releasing 5/17-5/18):
     - Fixed sounds not being heard by the player
         - All sounds are now played through the "master" channel
     - Fixed a rare bug involving small increments of fire damage
+    - Fixed a bug where the armor stand would be angled when playing a level
     - [WIP] Added bonus level for W1's final level, Tower of Ender
