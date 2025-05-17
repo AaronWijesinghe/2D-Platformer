@@ -59,7 +59,7 @@ v1 (Releasing 5/17-5/18):
         - Playtesting mode doesn't teleport you to the hub on level completion anymore
         - Playtesting mode doesn't kill or summon any armor stands anymore
         - If the player fails the level during playtesting mode, the playtesting session stops
-        - The dev2Dmode datapack is also disabled if the player is at spawn
+        - The dev2Dmode datapack is now also disabled if the player is at spawn
     - Fixed sounds not being heard by the player
         - All sounds are now played through the "master" channel
     - Fixed a rare bug involving small increments of fire damage
