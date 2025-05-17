@@ -5,7 +5,6 @@ tp @e[type=armor_stand,limit=1] @e[type=minecraft:player,limit=1]
 execute as @e[type=minecraft:armor_stand,limit=1] at @s run tp @s ~ ~ ~ 0 0
 execute as @p at @s if block ~ ~ ~ light run tp @s ~ ~ ~-0.75
 execute as @p at @s if block ~ ~1 ~ light run tp @s ~ ~ ~-0.75
-
 execute as @e[type=minecraft:armor_stand] at @s if block ~ ~-1 ~ minecraft:gold_block run give @p gold_nugget 2
 execute as @e[type=minecraft:armor_stand] at @s if block ~ ~-1 ~ minecraft:gold_block run function platformer:finish_level
 
