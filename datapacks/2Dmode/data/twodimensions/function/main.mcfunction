@@ -24,5 +24,5 @@ execute as @e[type=minecraft:player] at @s if block ~ ~ ~ minecraft:lava run fun
 execute as @e[type=minecraft:player] at @s if block ~ ~-0.01 ~ minecraft:barrier run function platformer:level_fail_generic
 execute as @e[type=minecraft:player] at @s if block ~ ~-0.01 ~ minecraft:magma_block run function platformer:level_fail_fire
 
-#effect give @a invisibility 1 0 true
+effect give @a invisibility 1 0 true
 effect give @a fire_resistance 1 0 true
