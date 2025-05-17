@@ -51,6 +51,7 @@ v1 (Releasing 5/17-5/18):
     - Revamped the hub/shop areas
         - Both areas are now combined with the level selector area
         - Allocated more space to the respective areas
+        - Added an outside section to the Hub
     - Slime Blocks now grant temporary Slow Falling for a graceful fall
     - Cosmetics are no longer lost on death
     - Trimmed vertical size of some levels
@@ -64,4 +65,6 @@ v1 (Releasing 5/17-5/18):
         - All sounds are now played through the "master" channel
     - Fixed a rare bug involving small increments of fire damage
     - Fixed a bug where the armor stand would be angled when playing a level
+    - Fixed a bug where the tutorial level took significantly longer to start than other levels
+    - Fixed a bug where the chorus plant trophy would start growing
     - [WIP] Added bonus level for W1's final level, Tower of Ender
