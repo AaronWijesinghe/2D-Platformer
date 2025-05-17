@@ -1,8 +1,8 @@
 gamemode adventure @p
 
 execute as @e[type=minecraft:player,limit=1] at @s run tp @s ~ ~ ~ 180 0
-execute as @e[type=minecraft:player,limit=1] at @s run tp @e[type=armor_stand,limit=1] ~ ~ ~ facing entity @s
-execute as @e[type=minecraft:armor_stand,limit=1] at @s run tp @s ~ ~ ~ 180 0
+tp @e[type=armor_stand,limit=1] @e[type=minecraft:player,limit=1]
+execute as @e[type=minecraft:armor_stand,limit=1] at @s run tp @s ~ ~ ~ 0 0
 execute as @p at @s if block ~ ~ ~ light run tp @s ~ ~ ~-0.75
 execute as @p at @s if block ~ ~1 ~ light run tp @s ~ ~ ~-0.75
 
