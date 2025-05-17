@@ -30,9 +30,9 @@ text = f'''
 # Price: <PRICE> <CURRENCY_>
 
 execute as @a at @s store result score @s currency run clear @s <CURRENCY> 0
+execute as @a at @s if score @s currency matches <PRICE>.. run clear @s <CURRENCY> <PRICE>
 execute as @a at @s if score @s currency matches <PRICE>.. run give @s minecraft:<TRIM>_armor_trim_smithing_template
 execute as @a at @s if score @s currency matches <PRICE>.. run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
-execute as @a at @s if score @s currency matches <PRICE>.. run clear @s <CURRENCY> <PRICE>
 execute as @a at @s if score @s currency matches ..<PRICE-> run playsound minecraft:entity.guardian.death_land master @s ~ ~ ~
 '''
 
